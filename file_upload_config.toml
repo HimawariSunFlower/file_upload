@@ -1,0 +1,19 @@
+osskey="test"
+
+[projectList]
+[projectList.project1]
+    osspath=""
+    path="e:/work/project1/"
+    versionfile="0_start.go"
+    files = [
+        "tools.exe",
+        "./core/bat.exe",
+    ]
+[projectList.project2]
+    osspath=""
+    path="e:/work/project2/"
+    versionfile="0_start.go"
+    files = [
+        "tools.exe",
+        "./core/bat.exe",
+    ]
