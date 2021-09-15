@@ -1,17 +1,13 @@
-osskey="test"
+osskeyid="11"
+osskeysecret ="22"
+
 
 [projectList]
 [projectList.project1]
-    osspath=""
-    path="e:/work/project1/"
-    versionfile="0_start.go"
-    files = [
-        "tools.exe",
-        "./core/bat.exe",
-    ]
-[projectList.project2]
-    osspath=""
-    path="e:/work/project2/"
+    osspath="test/"  #不能/开头
+    ossendpoint="http://oss-cn-qingdao.aliyuncs.com"
+    bucketname="test" #不能/开头
+    path="D:/project1/"
     versionfile="0_start.go"
     files = [
         "tools.exe",
