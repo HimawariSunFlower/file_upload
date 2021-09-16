@@ -46,7 +46,7 @@ func Admission(version string) {
 }
 
 func Do(filename string) {
-	byt, err := json.Marshal(v)
+	byt, err := json.MarshalIndent(v, "", "\t")
 	if err != nil {
 		panic(err)
 	}
